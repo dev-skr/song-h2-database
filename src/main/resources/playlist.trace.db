@@ -1,0 +1,12 @@
+2023-03-12 16:26:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into playlist(songName,lyricist,singer,musicDirector [*]values(?,?,?,?)"; expected ",, )"; SQL statement:
+insert into playlist(songName,lyricist,singer,musicDirector values(?,?,?,?) [42001-214]
+2023-03-12 16:29:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "update playlist songName[*]=?, lyricist=?, singer=?, musicDirector=? where songId=?"; expected "SET"; SQL statement:
+update playlist songName=?, lyricist=?, singer=?, musicDirector=? where songId=? [42001-214]
+2023-03-12 16:32:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "update playlist songName[*]=?, lyricist=?, singer=?, musicDirector=? where songId=?"; expected "SET"; SQL statement:
+update playlist songName=?, lyricist=?, singer=?, musicDirector=? where songId=? [42001-214]
+2023-03-12 16:40:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "update playlist songName[*]=?, lyricist=?, singer=?, musicDirector=? where songId=?"; expected "SET"; SQL statement:
+update playlist songName=?, lyricist=?, singer=?, musicDirector=? where songId=? [42001-214]
